@@ -627,35 +627,30 @@ footer a:hover{
   padding:20px;
 }
 /* About Page Css code */
+/* /About Page Css code/ */
 #page-header.about-header{
-  background-image: url("img/abanner.png");
-
-
+    background-image: url("know.jpeg");
+    background-size:100% 100%;
 }
-.about-header{
-  display:flex;
-  align-items:center;
-
-}
-.about-header h2{
-  padding-left: 12px;
-}
-.about-headerimg{
-  width: 50%;
-  height:auto;
-}
-.about-header div{
-  padding-left:40px;
-  
-}
-.about-header{
-  flex-direction:column;
-}
-.about-header img{
-  width:100%;
-  margin-bottom:20px;
+#about-head{
+    display:flex;
+    align-items:center;
 
 }
+#about-head img{
+    width: 50%;
+    height:auto;
+}
+#about-head div{
+    padding-left:40px;
+    
+}
+#about-head{
+    flex-direction:row;
+}
+#about-head img{
+    /* width:100%; */
+    margin-bottom:20px;
 
 }
 * contact page css code */
