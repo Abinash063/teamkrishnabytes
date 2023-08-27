@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signup.css">
+  <title>SignUp</title>
+</head>
+<body>
+  <div class="form-signup" >
+    <div class="form">
+      <span class="text">SignUp</span><br>
+      <form action="#">
+        <div class="form-email">
+          <input type="email" placeholder="Enter your Email" fname="Email" class="email" required>
+          <span class="in-valid">Re-enter</span>
+        </div>
+        <div class="form-user">
+          <input  placeholder="Create Username" fname="Username" class="User" required>
+          <span class="in-valid ">Re-enter</span>
+        </div>
+        <div class="form-password">
+          <input type="password" placeholder="Create Password" fname="password" class="Password" required>
+          <span class="touch"> <i class="fa-solid fa-eye-slash" id="eyeview"></i></span>
+          <span class="in-valid">Re-enter</span>
+        </div>
+        <div class="form-password">
+          <input type="password" placeholder="Confirm Password" fname="password" class="Confirmpass" required>
+          <span class="touch1" style="cursor: pointer;"> <i class="fa-solid fa-eye-slash" id="eyeview1"></i></span>
+          <span class="in-valid">Same as the above </span>
+        </div>
+        <div class="Submit">
+          <button class="submit1"><a href="#">Submit</a></button>
+        </div>
+      </form>
+    </div>  
+  </div>
+
+
+  <script src="https://kit.fontawesome.com/3e6a13145a.js" crossorigin="anonymous"></script>
+  <script src="signup.js"></script> 
+</body>
+</html>

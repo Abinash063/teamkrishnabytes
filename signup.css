@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background: rgb(34,193,195);
+    background: radial-gradient(circle,rgba(34,193,195,1)0%,rgba(106,7,156,1)100%);
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    height:440px;
+    width:440px;
+    border: 2px solid rgba(232, 18, 18, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow:0 0 30px rgba(0,0,0,0.5) ;
+  }
+  .form-signup{
+    position:relative;
+    top:200px;
+    left:500px;
+    right:500px;
+  }
+  
+  .text{
+    font-size: 1.7rem;
+    margin-top: 20px;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .form-email input{
+     background-color:rgb(34,193,195);
+    padding:10px 20px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    border:none;
+    outline: none;
+    border-bottom:2px solid #162938;
+    margin-bottom: 15px;
+  }
+  .form-user input{
+    background-color:rgb(34,193,195);
+    padding:10px 20px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    border:none;
+    outline: none;
+    border-bottom:2px solid #162938;
+    margin-bottom: 15px;
+  }
+  
+  .form-password input{
+    background-color:rgb(34,193,195);
+    padding:10px 20px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    margin-bottom: 25px;
+    border:none;
+    border-bottom:2px solid #162938;
+  }
+  .in-valid{
+    color: red;
+    font-size: 1.2rem;
+    display: none;
+  }
+  .touch{
+    cursor: pointer;
+  }
+  
+  
+  .Submit{
+    margin-left: 120px;
+    margin-bottom: 50px;
+  }
+  
+  .submit1{
+    padding: 20px 30px;
+    border-radius: 25%;
+    background-color: aqua;
+    cursor: pointer;
+  }
+  .submit1 a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #300fd4;
+    transition: color .5s ease-in-out;
+  }
+  .submit1:hover{
+    background-color: rgb(234, 11, 33);
+  }
+  .submit1 a:hover{
+    color: black;
+  }
