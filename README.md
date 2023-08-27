@@ -1,6 +1,6 @@
 Overview:
 
-Welcome to Our E-Commerce Platform is designed to provide you with a seamless online shopping experience. Whether you're looking for the latest fashion trends, electronics, home essentials, or more, we've got you covered. This README will guide you through the key features, setup instructions, and important information about our platform.
+Welcome to Our E-Commerce Platform, it is designed to provide you with a seamless online shopping experience.All the latest fashion trends are available here. This README will guide you through the key features, setup instructions, and important information about our platform.
 
 Key Features:
 
