@@ -632,25 +632,31 @@ footer a:hover{
 
 
 }
-#about-head{
+.about-header{
   display:flex;
   align-items:center;
 
 }
-#about-head img{
+.about-header h2{
+  padding-left: 12px;
+}
+.about-headerimg{
   width: 50%;
   height:auto;
 }
-#about-head div{
+.about-header div{
   padding-left:40px;
   
 }
-#about-head{
+.about-header{
   flex-direction:column;
 }
-#about-head img{
+.about-header img{
   width:100%;
   margin-bottom:20px;
+
+}
+
 }
 * contact page css code */
 #contact-details{
