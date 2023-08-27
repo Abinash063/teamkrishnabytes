@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  background-color: rgb(92,13,47);
+  /* background: radial-gradient(circle,rgba(34,193,195,1)0%,rgba(106,7,156,1)100%); */
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  height:440px;
+  width:440px;
+  border: 2px solid rgba(168, 25, 25, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  box-shadow:0 0 30px rgba(0,0,0,0.5) ;
+}
+.form-login{
+  position:relative;
+  top:200px;
+  left:500px;
+  right:500px;
+}
+.form h2{
+  margin-top: 30px;
+}
+.form-name input{
+  background-color: rgb(92,13,47);
+  padding:10px 20px;
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  border:none;
+  outline: none;
+  border-bottom:2px solid #162938;
+  margin-bottom: 15px;
+}
+
+.form-password input{
+  background-color: rgb(92,13,47);
+  padding:10px 20px;
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  outline: none;
+  margin-bottom: 25px;
+  border:none;
+  border-bottom:2px solid #162938;
+}
+.touch{
+  cursor: pointer;
+}
+.remember-forget{
+  margin-left: 10px;
+  margin-bottom: 15px;
+  /* display: ; */
+}
+.remember-forget span{
+  font-size: 1.3rem;
+}
+.remember-forget span a{
+  text-decoration: none;
+  color: black;
+}
+
+.signup{
+  margin-left:170px; 
+  font-size: 1.3rem;
+}
+.signup a{
+  text-decoration: none;
+  color: black;
+}
+/* .signup a span{
+  margin-left:170px;
+} */
+.signup a:active{
+  color: brown;
+}
+
+.login-in{
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.submit{
+  display: block;
+  background-color: rgba(165, 42, 42, 0.788);
+  padding: 20px 20px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.submit a{
+ text-decoration: none;
+ color: rgb(250, 239, 231);
+}
